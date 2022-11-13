@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Assignment1</title>
+</head>
+<body>
+    
+    <div class="container">
+       <center> <h1>Employee Data</h1></center>
+       <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>S.NO</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>City</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Pawan</td>
+                    <td>Dixit</td>
+                    <td>Kanpur</td>
+                    <td>India</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Deepak</td>
+                    <td>Kumar</td>
+                    <td>HamirPur</td>
+                    <td>India</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Prasant</td>
+                    <td>Soni</td>
+                    <td>Mahoba</td>
+                    <td>India</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Manjeet</td>
+                    <td>Singh</td>
+                    <td>Lucknow</td>
+                    <td>India</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Arvindra</td>
+                    <td>Jain</td>
+                    <td>Sitapur</td>
+                    <td>India</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+       
+        <div class="formdata">
+            <center><h2>Add An Employee</h2></center> 
+            <form action="" id="frm">
+                <div class="input-group">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname">
+                </div>
+                <div class="input-group">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname">
+                </div>
+                <div class="input-group">
+                    <label for="city">City</label>
+                    <input type="text" id="city">
+                </div>
+                <div class="input-group">
+                    <label for="country">Country</label>
+                    <input type="text" id="country">
+                </div>
+                <div class="input-group">
+                    <input type="button" value="add to top" onclick="addrowTop()">
+                </div>
+                <div class="input-group">
+                    <input type="button" onclick="addRowBottom()" value="add to bottom">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
